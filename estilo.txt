@@ -1,0 +1,45 @@
+:root {
+    --beige: #E6E2C3;
+    --verde: #88A47C;
+    --aguamarina: #227C70;
+    --azul: #1C315E;
+    --azulclaro: #6D67E4;
+    --fuentePrincipal: 20rem;
+
+
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 18px;
+    /* 1rem = 10px */
+    font-family: 'Kanit', sans-serif;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 3.8rem;
+    color: var(--azul)
+}
+
+.titulo span {
+    font-size: 2rem;
+    color: var(--azulclaro)
+}
+
+
+
+.icon-copy:before {
+    content: "\1f320";
+}
+
+.form {
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
